@@ -19,14 +19,14 @@ append(struct liste_chainee* list, int N)
         list = list -> Next;
 if (list)
 {
-    list->next = (struct liste_chainee *)mailloc(sizeof(struct listechainee));
+    list->next = (struct liste_chainee *)mailloc(sizeof(struct liste_chainee));
     if (!list->next)
             return (Null);
         list = list->next;
 }
 else
 {
-    list = (struct listechainee*)mailloc(sizeof(struct listechainee));
+    list = (struct liste_chainee*)mailloc(sizeof(struct liste_chainee));
     if (!list)
         return  Null;
 }
@@ -37,7 +37,7 @@ return (list);
 int
 main()
 {
-    struct liste_chainee* list = (struct listechainee*)Null;
+    struct liste_chainee* list = (struct liste_chainee*)Null;
 
     list = append(List,1);
     display(list);
@@ -52,7 +52,7 @@ main()
 1- list = append(List,1);
     display(list);
 
-2- listechainee list = reinit_list(list);
+2- liste_chainee list = reinit_list(list);
 
 3- nano list.c
 
