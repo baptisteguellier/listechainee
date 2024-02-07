@@ -46,7 +46,18 @@ main()
 
     list = append
 }
-    
+
+/** gestion_de_liste */
+
+1- list = append(List,1);
+    display(list);
+
+2- 
+
+
+3- nano list.c
+
+4- nano list.c
 
 
 
