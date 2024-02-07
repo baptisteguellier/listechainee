@@ -1,6 +1,6 @@
 # liste_chainee
 
-#include <stdio.h>
+#include <list.c>
 
 struct liste_chainee
 {
@@ -52,8 +52,7 @@ main()
 1- list = append(List,1);
     display(list);
 
-2- 
-
+2- listechainee list = reinit_list(list);
 
 3- nano list.c
 
